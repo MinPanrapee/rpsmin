@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Setup</title>
+    <link rel="stylesheet" type="text/css" href="gamesetup1.css">
+</head>
+<body>
+    <div class="header">
+        <h1>MOOMIN'S</h1>
+        <h2>ROCK PAPER SCISSORS</h2>
+    </div>
+    <div class="container">
+        <h3>Enter player names and rounds:</h3><br>
+        <input type="text" id="player1Name" placeholder="Player 1 Name"><br><br>
+        <h4>Select number of rounds:</h4>
+        <p>
+            <input type="radio" name="rounds" value="1" id="round1" checked>
+            <label for="round1">1 Round</label>
+        </p>
+        <p>
+            <input type="radio" name="rounds" value="3" id="round3">
+            <label for="round3">3 Rounds</label>
+        </p>
+        <p>
+            <input type="radio" name="rounds" value="5" id="round5">
+            <label for="round5">5 Rounds</label>
+        </p>
+        <p>
+            <input type="radio" name="rounds" value="7" id="round7">
+            <label for="round7">7 Rounds</label>
+        </p>
+        <br><br>
+        <button class="button" onclick="startGame()">Start Game</button>
+    </div>
+    <script src="gameset.js"></script>
+</body>
+</html>

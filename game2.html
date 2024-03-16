@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="game2.css">
+</head>
+<body>
+    <div class="header">
+        <h1>MOOMIN'S</h1>
+        <h2>ROCK PAPER SCISSORS</h2>
+    </div>
+    <div class="quit">
+        <button id="quitBtn" onclick="quitGame()">Quit</button>
+    </div>
+    <div class="container">
+        <div class="players">
+            <div class="player" id="player1">
+                <h2>Player 1</h2>
+                <div class="choices">
+                    <img src="player1Rock.png" alt="Rock" class="choice" id="player1Rock">
+                    <img src="player1Paper.png" alt="Paper" class="choice" id="player1Paper">
+                    <img src="player1Scissors.png" alt="Scissors" class="choice" id="player1Scissors">
+                </div>
+            </div>
+            <div class="player" id="player2">
+                <h2>Player 2</h2>
+                <div class="choices">
+                    <img src="player2Rock.png" alt="Rock" class="choice" id="player2Rock">
+                    <img src="player2Paper.png" alt="Paper" class="choice" id="player2Paper">
+                    <img src="player2Scissors.png" alt="Scissors" class="choice" id="player2Scissors">
+                </div>
+            </div>
+        </div>
+        <div id="result"></div>
+        <a href="game2.html" id="refresh">
+            <button id="nextRoundBtn">Play again</button>
+        </a>
+    </div>
+    </div>
+    <script src="game2.js"></script>
+</body>
+</html>

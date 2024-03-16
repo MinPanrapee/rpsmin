@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    background-color: #A1C5F6;
+    border: none;
+    border-radius: 0.5em;
+}
+.container {
+    margin-top: 50px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player {
+    margin-top: 50px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Basic styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.player {
+    text-align: center;
+}
+
+.choices {
+    margin-top: 10px;
+}
+
+.choice {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+#nextRoundBtn {
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #808080;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 100%;
+    
+}
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .players {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choice {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .choice {
+        width: 60px;
+    }
+}
+
+#quitBtn {
+    text-align: right;
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    background-color: crimson;
+    cursor: pointer;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}

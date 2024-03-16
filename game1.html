@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ROCK PAPER SCISSORS GAME</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="game1.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>MOOMIN'S</h1>
+            <h2>ROCK PAPER SCISSORS</h2>
+        </div>
+        <div class="scoreboad">
+            <div class="player-score">Player: 0</div>
+                <div class="computer-score">Computer: 0</div>
+        </div>
+        <div class="quit">
+            <button id="quitBtn" onclick="quitGame()">Quit</button>
+        </div>
+        <h3>Player 1's Turn</h3><br>
+            <div id="choices">
+                <div class="choice" id="rock">
+                    <button type="submit">
+                        <img src="player1Rock.png" alt="buttonpng" border="0"/>
+                      </button> 
+                </div>
+                <div class="choice" id="paper"> 
+                    <button type="submit">
+                    <img src="player1Paper.png" alt="buttonpng" border="0" />
+                    </button>  
+                </div>  
+                <div class="choice" id="scissors">
+                <button type="submit">
+                    <img src="player1Scissors.png" alt="buttonpng" border="0" />
+                    </button> 
+                </div>      
+                </div><br>
+    <div class="result" id="result">
+        <p>Choose your weapon!</p>
+    </div><br>
+    <div id="computer-choice"></div>
+    <div class="timer" id="timer">
+        <p>Time left: <span id="countdown">10</span>s</p>
+    </div>
+    <button class="play-again" id="play-again">Play Again</button>
+        <script src="game1.js"></script>
+    </body>
+</html>
